@@ -1,0 +1,48 @@
+h2{
+    font-size: 20px;
+    font-weight: bold;
+    }
+    
+    .container-fluid{
+        background-color:whitesmoke;
+        background-image: url();
+        margin-left: 50px;
+        margin-top: 50px;
+        margin-right:50 ;
+      
+    
+    }
+    
+    img {
+        max-width: 60%;
+        border-radius: 600px;
+    }
+    .my-repos p {
+        text-indent: 40px
+        
+    
+    }
+    
+ .desc{
+        text-align: left;
+        color: whitesmoke;
+    } 
+    /* .date{
+        color: whitesmoke;
+    }
+    tr {
+        font-size: 20px;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    td a {
+        font-size: 25px;
+        color:blue;
+    }
+    p {
+        text-indent: 32px;
+    } */
+         
+    
+    

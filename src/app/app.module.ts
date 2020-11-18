@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { UserComponent } from './user/user.component';
 import { SearchformComponent } from './searchform/searchform.component';
 import { ReposComponent } from './repos/repos.component';
+import { SearchhService } from './searchh.service';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,7 @@ import { ReposComponent } from './repos/repos.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [SearchhService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

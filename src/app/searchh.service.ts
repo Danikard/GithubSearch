@@ -10,12 +10,16 @@ export class SearchhService {
     this.username="danikard"
   }
   getRepo(){
-    return this.http.get (`http://api.github.om/users/"+ this.username +/repos`)
+    return this.http.get("https://api.github.com/users/"+ this.username + "?client_id="+ "f67dba295a3cdb7653ca" + "&client_secret="+"ca675e84d042537389d8cd0fba3fef10bcc5cc26 ")
   }
   getProfileRepos(){
-    return this.http.get(`"https://api.github.com/users/"+ this.username +`)
+    return this.http.get("https://api.github.com/users/"+ this.username + "/repos?client_id="+ "f67dba295a3cdb7653ca"  + "&client_secret="+"ca675e84d042537389d8cd0fba3fef10bcc5cc26 ")
   }
   upDateUser(username:string){
     this.username=username;
   }
 }
+
+
+  
+

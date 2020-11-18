@@ -1,7 +1,7 @@
-// export class Search {
-//     public find: string;
-//     constructor(find) {
-//         this.find = find;
-//     }
+export class Search {
+    public find: string;
+    constructor(find) {
+        this.find = find;
+    }
     
-// }
+}

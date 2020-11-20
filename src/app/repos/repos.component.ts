@@ -7,7 +7,7 @@ import { SearchhService } from '../searchh.service';
 })
 export class ReposComponent implements OnInit {
   profile:any;
-  repository:any;
+  repositors:any;
   username: string;
 
 
@@ -18,7 +18,7 @@ export class ReposComponent implements OnInit {
       });
       this.search.getProfileRepos().subscribe(repo=>{
         console.log(repo);
-        this.repository=repo;
+        this.repositors=repo;
       })  
    }
    profileUser(){
@@ -29,7 +29,7 @@ export class ReposComponent implements OnInit {
     });
     this.search.getProfileRepos().subscribe(repo=>{
       console.log(repo);
-      this.repository=repo;
+      this.repositors=repo;
     })
   }
 

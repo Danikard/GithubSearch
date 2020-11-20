@@ -1,17 +1,24 @@
-<div class="container-fluid">
 
-    <div class="row ">
-    <div class="col-md-9 text-center">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-11">
-      <div >
-        <div class="table">
-          <table class="table">
-         
+    <label>
+        <input id="fr" class="form-control" type="text" placeholder="search"[(ngModel)]="username" name="username" (keyup.enter)="profileUser()">
+    </label>  
+
+    <div class="container">     
+        <div  class="card"    *ngIf="profile">
+            <div class="card-header">
+                <h4 align="center" *ngIf="profile.name">{{profile.name}} </h4>
+                <small align="center" >{{profile.login}}</small>
+            </div>
+            <div class="card-body">
+                <div class="row" *ngFor ="let repositor of repositors , let i=index">
+                    <div class="col-md-4">
+                    <p>{{repositors[i].name}}</p> 
+                    </div>        
+                    <div class="col-md-4">
+                        <a href="{{repositors[i].html_url}}" target="_blanck"><button class="btn-inline btn-outline-info">view repo</button></a>
+                    </div>
+                    <div class="col-md-4">
+                        <p>{{repositors[i].pushed_at| date}}</p>
+                    </div>  
+        
     
-          </table>
-          <hr>
-        </div>
-      </div>

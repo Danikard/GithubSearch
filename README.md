@@ -5,9 +5,8 @@ The site uses the Github API to perform searches on Github, and display the resu
 ## technologies used 
 Angular Js, Html, bootstrap, 
 ### link to the site
-
+https://danikard.github.io/GithubSearch/
 #### contact
 Email:kajothada@gmail.com
-
 #### License 
 copyright (C) 2020 KARAMBIZI Danius jonathan 

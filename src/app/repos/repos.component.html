@@ -1,8 +1,13 @@
+<div class="body" id="body">
+    <h2 class="d-flex justify-content-center" style="color: green" > User Repositories</h2>
+    <div id="forms">
 
-    <label>
+  <label>
         <input id="fr" class="form-control" type="text" placeholder="search"[(ngModel)]="username" name="username" (keyup.enter)="profileUser()">
     </label>  
 
+    </div>
+  
     <div class="container">     
         <div  class="card"    *ngIf="profile">
             <div class="card-header">
@@ -21,4 +26,7 @@
                         <p>{{repositors[i].pushed_at| date}}</p>
                     </div>  
         
+  
+</div>
+  
     

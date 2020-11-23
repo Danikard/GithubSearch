@@ -1,0 +1,25 @@
+#body{
+    background-image: url("https://images.wallpaperscraft.com/image/mail_internet_world_80605_1280x720.jpg");
+    background-size:cover;
+    
+}
+.card-header{
+    background-color:#B0C4DE;
+    text-align: center;
+}
+#forms{
+    margin:auto;
+    width:30%;
+    padding: 10px;
+    padding-left: 70px;
+
+}
+#fr{
+    padding-right: 150px;
+}
+.row{
+    border-bottom: 1px solid grey;
+    border-radius: 4px;
+    padding: 7px;
+    margin: 3px
+}
